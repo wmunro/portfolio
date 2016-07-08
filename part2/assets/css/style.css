@@ -62,18 +62,14 @@ section {
 }
 
 
-@media only screen and (max-width: 768px) 
-
- {
-	section{background-color: blue}
-	
-	
-	aside {display:table; inline;}
-	.connect{ background-color: blue;
-	}
+@media only screen and (max-width: 768px) {
 
 
-		
+.about-me{float: none;}
+.content-wrapper{background-color: blue;}
+}
+    
+
 	
 	
 	/* Add your code here */
@@ -81,6 +77,9 @@ section {
 @media only screen and (max-width: 640px) {
 
 
-}
+p{display: inline-table;}
+.about-me{float: center; }
+.content-wrapper{background-color: green;}
 
 	/* Add your code here */
+}
